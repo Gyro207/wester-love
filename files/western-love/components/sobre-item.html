@@ -1,0 +1,42 @@
+<!--
+  sobre-item.html — Plantilla de sobre para cartas secretas
+  Este componente es una referencia visual.
+  Los sobres reales se generan dinámicamente desde js/sections.js
+  usando los datos de CONFIG.cartas en js/config.js
+
+  Estructura que genera el JS:
+  ─────────────────────────────
+  <div class="sobre-item" role="button" tabindex="0" aria-label="Abrir: Título">
+    <div class="sobre-front">
+      <div class="sobre-sello-item">✦</div>
+    </div>
+    <p class="sobre-titulo">La primera promesa</p>
+    <p class="sobre-subtitulo">Bajo las estrellas</p>
+  </div>
+
+  Para agregar más cartas secretas:
+  ──────────────────────────────────
+  Abrí js/config.js y agregá un objeto nuevo al array CONFIG.cartas:
+
+  {
+    titulo:    "Mi nuevo título",
+    subtitulo: "Un subtítulo bonito",
+    sello:     "♥",           ← puede ser cualquier emoji o símbolo
+    cuerpo:    `El texto de la carta...
+    
+    Puede tener varios párrafos separados por líneas en blanco.`,
+    firma: "Con amor — W."
+  },
+
+  El JS lo convierte automáticamente en un sobre clicable
+  que abre el modal con el contenido.
+-->
+
+<!-- Ejemplo visual estático (no se usa en producción) -->
+<div class="sobre-item">
+  <div class="sobre-front">
+    <div class="sobre-sello-item">✦</div>
+  </div>
+  <p class="sobre-titulo">La primera promesa</p>
+  <p class="sobre-subtitulo">Bajo las estrellas</p>
+</div>

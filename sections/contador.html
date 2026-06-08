@@ -1,0 +1,40 @@
+<section id="contador" class="section-contador scroll-reveal">
+  <div class="section-header">
+    <h2 class="titulo-seccion">Juntos Desde</h2>
+    <p class="subtitulo-seccion" id="contador-fecha-texto"></p>
+  </div>
+
+  <div class="reloj-bolsillo">
+    <div class="reloj-carcasa" aria-hidden="true">
+      <div class="reloj-cadena"></div>
+      <div class="reloj-tapa">
+        <div class="reloj-grabado">✦</div>
+      </div>
+    </div>
+
+    <div class="reloj-face" role="timer" aria-live="polite">
+      <div class="contador-grid">
+        <div class="contador-item">
+          <span class="contador-num" id="cnt-dias">000</span>
+          <span class="contador-label">Días</span>
+        </div>
+        <div class="contador-item">
+          <span class="contador-num" id="cnt-horas">00</span>
+          <span class="contador-label">Horas</span>
+        </div>
+        <div class="contador-item">
+          <span class="contador-num" id="cnt-min">00</span>
+          <span class="contador-label">Minutos</span>
+        </div>
+        <div class="contador-item">
+          <span class="contador-num" id="cnt-seg">00</span>
+          <span class="contador-label">Segundos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn-continuar scroll-reveal" data-target="libro">
+    Abrir el Libro ↓
+  </button>
+</section>

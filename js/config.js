@@ -16,7 +16,7 @@ const CONFIG = {
 
   /* ── Carta principal ─────────────────────────────────────── */
   cartaLugar:  "Somewhere, Texas",
-  cartaSaludo: "Mi querida Eleanor,",
+  cartaSaludo: "Mi querida Macarena,",
   mensajePrincipal: `Cuando las palabras se niegan a salir con gracia, el lápiz vacila sobre el papel y las noches se hacen largas, es tu recuerdo el que me guía como un farol en la oscuridad del desierto.
 
 Hay lugares que solo existen porque tú y yo los pisamos juntos. Hay atardeceres que no tendrían sentido sin tus ojos reflejando el mismo cielo. Cada kilómetro de polvo rojo que he cruzado lleva grabado tu nombre en la suela de mis botas.

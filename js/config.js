@@ -5,8 +5,8 @@
 
 const CONFIG = {
   /* ── Nombres de la pareja ─────────────────────────────────── */
-  nombreEl:   "William",
-  nombreElla: "Eleanor",
+  nombreEl:   "Lucas",
+  nombreElla: "Macarena",
 
   /* ── Fecha de inicio de la relación (para el contador) ────── */
   fechaRelacion: "2022-03-15T20:00:00",

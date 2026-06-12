@@ -159,7 +159,7 @@ Más de lo que estas palabras pueden explicar.
     left: 68,
     top: 48,
     emoji: "🤗",
-    historia: "No creo haberte contado que probablemente fue el peor abrazo de mi vida. Pero también fue el único que realmente quise dar."
+    historia: "No creo haberte contado que probablemente fue el peor abrazo que di en mi vida. Pero también fue el único que realmente quise dar."
   },
 
   {

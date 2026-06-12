@@ -6,26 +6,127 @@
 const CONFIG = {
   /* ── Nombres de la pareja ─────────────────────────────────── */
   nombreEl:   "Lucas",
-  nombreElla: "Macarena",
+  nombreElla: "Maca",
 
   /* ── Fecha de inicio de la relación (para el contador) ────── */
-  fechaRelacion: "2022-03-15T20:00:00",
+  fechaRelacion: "2025-04-10T21:00:00",
 
   /* ── Intro ──────────────────────────────────────────────────  */
   textoIntro: "Para la mujer que cambió mi vida...",
 
   /* ── Carta principal ─────────────────────────────────────── */
   cartaLugar:  "Somewhere, Texas",
-  cartaSaludo: "Mi querida Macarena,",
-  mensajePrincipal: `Cuando las palabras se niegan a salir con gracia, el lápiz vacila sobre el papel y las noches se hacen largas, es tu recuerdo el que me guía como un farol en la oscuridad del desierto.
+  cartaSaludo: "Mi querida Maca,",
+  mensajePrincipal: `Nunca fui bueno escribiendo cartas.
 
-Hay lugares que solo existen porque tú y yo los pisamos juntos. Hay atardeceres que no tendrían sentido sin tus ojos reflejando el mismo cielo. Cada kilómetro de polvo rojo que he cruzado lleva grabado tu nombre en la suela de mis botas.
+Tampoco hablando de lo que siento.
 
-No soy hombre de muchas palabras bonitas, lo sabes bien. Pero sé que cuando el viento sopla desde el norte y las estrellas aparecen sobre las montañas, pienso en ti con una fuerza que ningún caballo podría desbocarse tanto.
+Si soy sincero, muchas veces ni siquiera entiendo bien lo que siento hasta que me quedo solo pensando en ello durante horas.
 
-Guarda esta carta cerca del corazón. Algún día estaremos sentados frente a la misma fogata, y entonces no habrá necesidad de palabras.
+Pero hay cosas que no quiero dejar guardadas para siempre.
 
-Hasta ese día, cada amanecer lo vivo pensando en ti.`,
+Todavía recuerdo la primera vez que te vi.
+
+Estabas sola.
+
+Seria.
+
+Tan seria que cuando me miraste pensé por un momento que me ibas a echar del lugar con la mirada.
+
+Cualquier persona normal probablemente habría seguido de largo.
+
+Yo también debería haberlo hecho.
+
+Pero no pude.
+
+Algo en vos llamó mi atención de una forma que nunca había sentido antes.
+
+Y aunque estaba terriblemente nervioso, fui a hablarte.
+
+Todavía creo que fue una de las decisiones más valientes que tomé en mi vida.
+
+Lo curioso es que no fue un solo momento lo que me hizo enamorarme de vos.
+
+Fue algo mucho más simple.
+
+Empecé a pensar en vos más de lo normal.
+
+Después empecé a esperar nuestras conversaciones.
+
+Después me descubrí sonriendo cuando veía un mensaje tuyo.
+
+Y cuando quise darme cuenta ya era demasiado tarde.
+
+Me gustaba escucharte.
+
+Me gustaba cómo pensabas.
+
+Me gustaba lo directa que eras conmigo.
+
+Me gustaba esa forma tan tuya de ser fuerte cuando la vida se pone difícil.
+
+Y también esa parte más sensible que escondés cuando creés que nadie está mirando.
+
+Hay muchos momentos que podría escribir aquí.
+
+Pero si tuviera que guardar uno solo, creo que sería aquel abrazo.
+
+Vos ya tenías que irte.
+
+Te acercaste despacio y abriste los brazos.
+
+Yo no tenía idea de qué hacer.
+
+La verdad es que nunca fui una persona muy cariñosa.
+
+Ni siquiera me gustan mucho los abrazos.
+
+Pero ese fue distinto.
+
+Porque eras vos.
+
+No se sintió incómodo.
+
+No se sintió extraño.
+
+Se sintió natural.
+
+Cálido.
+
+Como si fuera exactamente donde tenía que estar en ese momento.
+
+A veces tengo miedo.
+
+No de lo que siento por vos.
+
+Eso lo tengo claro desde hace mucho tiempo.
+
+Lo que me asusta es no estar a la altura.
+
+No ser lo que esperás.
+
+Equivocarme.
+
+Lastimarte sin querer.
+
+Porque si algo aprendí durante este tiempo es que tu bienestar me importa mucho más de lo que me gusta admitir.
+
+Pero incluso con todos esos miedos, hay algo que nunca cambió.
+
+Cada mañana sigo alegrándome cuando pienso en vos.
+
+Cada día sigo queriendo saber cómo estás.
+
+Y cada vez que aparece tu nombre, sigo sintiendo esa misma felicidad que sentí cuando empezamos a conocernos.
+
+Quizá no sepa exactamente qué nos espera más adelante.
+
+Pero sí sé algo.
+
+Me alegra que hayas aparecido en mi vida.
+
+Más de lo que estas palabras pueden explicar.
+`,
 
   /* ── Puntos del mapa ─────────────────────────────────────── */
   recuerdos: [
@@ -74,37 +175,151 @@ Hasta ese día, cada amanecer lo vivo pensando en ti.`,
   /* ── Cartas secretas ─────────────────────────────────────── */
   cartas: [
     {
-      titulo:    "La primera promesa",
-      subtitulo: "Bajo las estrellas",
+      titulo:    "Lo que admiro de vos",
+      subtitulo: "Las cosas que quizá no ves",
       sello:     "✦",
-      cuerpo:    `Aquella noche prometí que nunca dejaría que el mundo te apagara. Que mientras yo respirara, habría alguien que viera la luz que llevas dentro, esa que tú misma a veces no alcanzas a ver.
+      cuerpo:    `Maca,
 
-No soy perfecto. Tengo el alma llena de cicatrices y los bolsillos llenos de polvo. Pero tengo también un corazón que late solo por ti.
+Hay algo que siempre me llamó la atención de vos.
 
-Eso es lo único que sé dar, y lo doy entero.`,
-      firma: "Tuyo, siempre — W."
+No fue tu sonrisa.
+
+No fueron tus ojos
+
+Ni siquiera fue lo hermosa que me pareciste aquella primera vez.
+
+Fue tu forma de seguir adelante.
+
+La vida no siempre fue amable con vos y aun así seguís levantándote cada mañana para enfrentar lo que venga.
+
+Hay una fuerza en vos que admiro más de lo que puedo explicar.
+
+Y lo curioso es que muchas veces esa misma fuerza convive con una sensibilidad enorme.
+
+A veces te veo intentando cargar con todo sola.
+
+Como si no quisieras preocupar a nadie.
+
+Como si mostrar que algo te duele fuera una derrota.
+
+Pero nunca pensé que fueras débil por sentir.
+
+Al contrario.
+
+Creo que hace falta mucho valor para seguir siendo buena persona después de haber pasado por cosas difíciles.
+
+Y eso es algo que siempre voy a admirar de vos.
+
+Quizá no te lo digo lo suficiente.
+
+Pero muchas de las cosas que más me gustan de vos no se ven a simple vista.
+
+Son esas pequeñas partes de tu corazón que descubrí con el tiempo.
+
+Y son las que más valoro.`,
+      firma: "Tuyo, siempre —Lucas."
     },
     {
-      titulo:    "Lo que nunca dije",
-      subtitulo: "Guardado por años",
+      titulo:    "El día que me di cuenta",
+      subtitulo: "Demasiado tarde para escapar",
       sello:     "♥",
-      cuerpo:    `Hay cosas que un hombre del oeste no sabe decir mirando a los ojos. Así que lo escribo aquí, donde el papel puede aguantar el peso.
+      cuerpo:    `Maca,
 
-Me enamoré de tu risa antes que de todo lo demás. Después de tu terquedad. Después de cómo te defiendes cuando crees en algo. Después de esa manera tuya de mirar el horizonte como si supieras exactamente qué hay detrás.
+Durante mucho tiempo pensé que podía entender mis propios sentimientos.
 
-Llevo todos estos años tratando de ser alguien digno de todo eso. No sé si lo he logrado. Pero lo sigo intentando, cada maldito día, por ti.`,
-      firma: "Con todo lo que tengo — W."
+Resulta que estaba equivocado.
+
+Porque no hubo un momento exacto en el que decidiera enamorarme de vos.
+
+Simplemente ocurrió.
+
+Un día nuestras conversaciones dejaron de ser una parte cualquiera de mi rutina.
+
+Y empezaron a convertirse en algo que esperaba.
+
+Me encontraba pensando en cosas que quería contarte.
+
+En cosas que te harían reír.
+
+En cómo había sido tu día.
+
+Y cuando intentaba distraerme terminaba pensando en vos otra vez.
+
+Recuerdo perfectamente aquella noche.
+
+La noche en la que me quedé despierto dándole vueltas a todo.
+
+Intentando encontrar una explicación.
+
+Intentando convencerme de que estaba exagerando.
+
+Pero cuanto más pensaba, más evidente se volvía.
+
+No era costumbre.
+
+No era cariño.
+
+No era simple interés.
+
+Me había enamorado de vos.
+
+Y para cuando lo entendí ya era demasiado tarde para escapar.
+
+La verdad es que tampoco quería hacerlo.`,
+      firma: "Con todo lo que tengo — Lucas."
     },
     {
-      titulo:    "Carta para el futuro",
-      subtitulo: "Cuando lleguemos al final",
+      titulo:    "Lo que todavía no te digo",
+      subtitulo: "Entre miedo y esperanza",
       sello:     "🌟",
-      cuerpo:    `Si algún día encuentras esta carta, quiero que sepas que todo lo que vivimos fue real. Cada kilómetro, cada tormenta, cada amanecer compartido.
+      cuerpo:    `Maca,
 
-Envejecer contigo es el único plan que me importa. Sentarme en el porche cuando las rodillas ya no aguanten el galope, tomarte la mano y decir: valió la pena. Cada paso, cada bache, cada desvío.
+Si hay algo que rara vez muestro es el miedo.
 
-El camino fue duro. Tú lo hiciste hermoso.`,
-      firma: "Para siempre tuyo — W."
+Pero la verdad es que existe.
+
+Y aparece más seguido de lo que me gustaría admitir.
+
+No tengo miedo de sentir lo que siento por vos.
+
+Eso nunca me preocupó.
+
+Lo que me preocupa es no ser suficiente.
+
+No cumplir tus expectativas.
+
+Equivocarme.
+
+Decir algo mal.
+
+Hacer algo mal.
+
+Lastimarte sin querer.
+
+Porque aunque a veces me hago el fuerte, la realidad es que me importás muchísimo.
+
+Y cuando alguien te importa de verdad, también aparece el miedo a perderlo.
+
+Pero entre todos esos miedos también hay algo más.
+
+Esperanza.
+
+La esperanza de seguir compartiendo días contigo.
+
+Seguir recibiendo tus buenos días.
+
+Seguir escuchando tus historias.
+
+Seguir descubriendo cosas nuevas sobre vos.
+
+No sé qué nos espera más adelante.
+
+Y quizá nadie puede saberlo.
+
+Pero si algo aprendí durante este tiempo es que hay caminos que vale la pena recorrer incluso cuando no conocemos el destino.
+
+Y vos sos uno de ellos.`,
+      firma: "Para siempre tuyo — Lucas."
     },
   ],
 

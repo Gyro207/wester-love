@@ -130,46 +130,55 @@ Más de lo que estas palabras pueden explicar.
 
   /* ── Puntos del mapa ─────────────────────────────────────── */
   recuerdos: [
-    {
-      nombre:  "Río Rojo",
-      left: 18, top: 38,
-      emoji:   "🌊",
-      historia: "La primera vez que cruzamos el río juntos. El agua estaba fría y reíste tanto que casi caes del caballo."
-    },
-    {
-      nombre:  "Cabaña del Pino",
-      left: 35, top: 55,
-      emoji:   "🏚️",
-      historia: "Aquella tormenta de nieve nos atrapó tres días. Nunca más he tomado café tan bueno ni dormido tan tranquilo."
-    },
-    {
-      nombre:  "Cañón Dorado",
-      left: 52, top: 30,
-      emoji:   "🏜️",
-      historia: "El amanecer desde el borde del cañón. Dijiste que parecía el fin del mundo, y yo dije que prefería ese fin a cualquier otro comienzo."
-    },
-    {
-      nombre:  "Estación Meridian",
-      left: 68, top: 48,
-      emoji:   "🚂",
-      historia: "Te despedí en ese andén durante seis meses. Cada tren que llegaba sin ti era un pequeño funeral."
-    },
-    {
-      nombre:  "Pradera Alta",
-      left: 82, top: 62,
-      emoji:   "🌾",
-      historia: "Picnic entre la hierba alta. Robaste mi sombrero y corriste hasta que te alcancé entre risas y promesas."
-    },
-  ],
+  {
+    nombre: "La Primera Mirada",
+    left: 18,
+    top: 38,
+    emoji: "👀",
+    historia: "Todavía me parece raro pensar que todo empezó porque me miraste mal. Cualquier otra persona probablemente habría decidido mantenerse lejos. Yo decidí acercarme igual."
+  },
+
+  {
+    nombre: "La Notificación",
+    left: 35,
+    top: 55,
+    emoji: "📱",
+    historia: "Nunca te lo dije, pero cuando vi que también me habías seguido pensé que tal vez no había arruinado todo después de hablarte. Ese día fui ridículamente feliz."
+  },
+
+  {
+    nombre: "La Segunda Oportunidad",
+    left: 52,
+    top: 30,
+    emoji: "🤍",
+    historia: "Siempre dijiste que no dabas segundas oportunidades. Por eso nunca voy a olvidar que me dieras una a mí."
+  },
+
+  {
+    nombre: "El Abrazo",
+    left: 68,
+    top: 48,
+    emoji: "🤗",
+    historia: "No creo haberte contado que probablemente fue el peor abrazo de mi vida. Pero también fue el único que realmente quise dar."
+  },
+
+  {
+    nombre: "Los Buenos Días",
+    left: 82,
+    top: 62,
+    emoji: "☀️",
+    historia: "Es extraño cómo algo tan simple puede volverse tan importante. Hay días donde un simple 'buenos días' tuyo mejora todo."
+  }
+],
 
   /* ── Álbum polaroid ──────────────────────────────────────── */
   fotos: [
-    { emoji: "🌅", nota: "Nuestro primer amanecer",      fecha: "Marzo, 1899"  },
-    { emoji: "🐎", nota: "Cabalgando al oeste",           fecha: "Abril, 1899"  },
-    { emoji: "🔥", nota: "Noche de fogata",               fecha: "Mayo, 1899"   },
-    { emoji: "⛰️",  nota: "Las montañas del norte",       fecha: "Junio, 1899"  },
-    { emoji: "🌹", nota: "Las flores del camino",         fecha: "Julio, 1899"  },
-    { emoji: "🌙", nota: "Luna llena en el desierto",     fecha: "Agosto, 1899" },
+    { emoji: "🌅", nota: "El primer buenos días",      fecha: "Aquel día que empezó la costumbre"  },
+    { emoji: "🐎", nota: "Las conversaciones infinitas",           fecha: "Cuando hablar contigo se volvió rutina"  },
+    { emoji: "🔥", nota: "El abrazo que aún recuerdo",               fecha: "El único abrazo que se sintió natural"   },
+    { emoji: "⛰️",  nota: "El detalle de One Piece",       fecha: "Pequeño para el mundo, enorme para mí"  },
+    { emoji: "🌹", nota: "Las cosas que no te digo",         fecha: "Todo lo que admiro de vos"  },
+    { emoji: "🌙", nota: "Incluso en los días silenciosos",     fecha: "Sigo pensando en vos" },
   ],
 
   /* ── Cartas secretas ─────────────────────────────────────── */
@@ -326,39 +335,137 @@ Y vos sos uno de ellos.`,
   /* ── Páginas del libro ───────────────────────────────────── */
   paginas: [
     {
-      fecha:   "Primavera, 1899",
-      titulo:  "El comienzo del camino",
+      fecha:   "El comienzo del camino",
+      titulo:  "La chica del bar",
       emoji:   "🌸",
-      texto:   "Nadie nos advirtió que aquel primer día juntos cambiaría el mapa de nuestras vidas. Fue como si el destino hubiera trazado una ruta nueva, solo para nosotros, en la tierra roja del oeste.",
-      detalle: "— Guardado con amor"
-    },
+      texto: `No recuerdo qué música estaba sonando.
+
+No recuerdo qué estaba tomando.
+
+Pero sí recuerdo verte.
+
+Estabas sola.
+
+Y parecías tan seria que cualquier persona con sentido común hubiera seguido de largo.
+
+Yo también debería haberlo hecho.
+
+Pero algo me decía que si no lo intentaba me iba a arrepentir.
+
+Y por primera vez en mi vida reuní el valor suficiente para hablar con una desconocida.
+
+Todavía no sabía que terminarías cambiando tantas cosas. Pero desde ese momento supe que no iba a olvidarte.`,
+        detalle: "— Guardado con amor"
+      },
     {
-      fecha:   "Verano, 1899",
-      titulo:  "Los días dorados",
+      fecha:   "Nuestra primera conversación",
+      titulo:  "La notificación que no esperaba",
       emoji:   "☀️",
-      texto:   "El calor del verano texano no tiene piedad. Pero contigo hasta el sol parecía una gentileza. Recuerdo cada siesta bajo la sombra del roble viejo, cada tarde lenta que se negaba a convertirse en noche.",
-      detalle: "— Esos días brillaron más"
+      texto:   `Cuando me diste tu Instagram pensé que lo habías hecho por amabilidad.
+
+Durante todo el camino de vuelta estuve convencido de eso.
+
+Pero cuando vi que también me habías seguido de vuelta sentí algo que todavía recuerdo perfectamente.
+
+Esperanza.
+
+Te escribí sin esperar respuesta.
+
+Y cuando respondiste me convertí en el hombre más feliz del mundo por unas horas.
+
+Aquella noche hablamos hasta la madrugada.
+
+Y sin darme cuenta, empezó algo que terminaría siendo mucho más importante de lo que imaginaba.`,
+      detalle: "— El inicio de algo especial"
     },
     {
-      fecha:   "Otoño, 1899",
-      titulo:  "La primera tormenta",
+      fecha:   "La primera tormenta",
+      titulo:  "Cuando regresaste",
       emoji:   "⛈️",
-      texto:   "Llegaron tiempos difíciles. El dinero escaso, el camino incierto, el miedo a perder lo que habíamos construido. Pero en las tormentas también descubrí lo que eras de verdad: la persona más valiente que he conocido.",
-      detalle: "— Las tormentas nos forjaron"
+      texto:   `Hubo momentos difíciles.
+
+Momentos donde pensé que todo había terminado.
+
+Y aunque intenté seguir adelante, la verdad es que me dolió más de lo que me gusta admitir.
+
+Pero entonces pasó algo que jamás esperé.
+
+Volviste.
+
+No buscaste excusas.
+
+No intentaste justificar nada.
+
+Simplemente reconociste tus errores y me pediste disculpas.
+
+Y fue en ese momento cuando entendí algo.
+
+La persona perfecta no es alguien que nunca se equivoca.
+
+Es alguien que tiene el valor suficiente para reconocer cuando lo hace.
+
+Y vos lo hiciste.`,
+      detalle: "— El valor de volver a intentarlo"
     },
     {
-      fecha:   "Invierno, 1899",
-      titulo:  "El calor de quedarse",
+      fecha:   "El primer abrazo",
+      titulo:  "Lo que nunca olvidaré",
       emoji:   "❄️",
-      texto:   "Cuando el invierno llegó al norte, nos quedamos. No por falta de camino, sino porque descubrimos que el hogar no es un lugar. Es la persona con quien eliges enfrentar el frío.",
-      detalle: "— Contigo, nunca tuve frío"
+      texto:   `Hay muchos recuerdos bonitos.
+
+Pero si tuviera que guardar uno para siempre sería aquel abrazo.
+
+No porque fuera perfecto.
+
+Probablemente lo abracé de la forma más torpe posible.
+
+Pero porque fue real.
+
+Nunca fui una persona que disfrute demasiado del contacto físico.
+
+Sin embargo, por alguna razón, cuando fuiste vos se sintió diferente.
+
+Natural.
+
+Cálido.
+
+Como si durante unos segundos el mundo hubiera dejado de hacer ruido.`,
+      detalle: "— El abrazo que cambió todo"
     },
     {
-      fecha:   "Primavera, 1900",
-      titulo:  "Un nuevo horizonte",
+      fecha:   "El camino que seguimos recorriendo",
+      titulo:  "El camino que seguimos recorriendo",
       emoji:   "🌄",
-      texto:   "Con el deshielo llegaron nuevas promesas. Decidimos que el siguiente trecho del camino lo haríamos a propósito, eligiéndonos cada mañana, como se elige la dirección antes de montar.",
-      detalle: "— El mejor viaje empieza aquí"
+      texto:   `Todavía hay cosas que no sabemos.
+
+Todavía existen dudas.
+
+Todavía hay días difíciles.
+
+Exámenes.
+
+Trabajo.
+
+Distancias.
+
+Miedos.
+
+Pero si algo aprendí durante este tiempo es que los caminos importantes rara vez son sencillos.
+
+Y aun así sigo aquí.
+
+Porque cada buenos días.
+
+Cada conversación.
+
+Cada sticker extraño.
+
+Cada pequeño momento compartido.
+
+Me recuerda que conocerte fue una de las mejores cosas que me han pasado.
+
+Y todavía quiero seguir descubriendo hacia dónde nos lleva este camino.`,
+      detalle: "— El camino que seguimos recorriendo"
     },
   ],
 
@@ -375,5 +482,10 @@ Y vos sos uno de ellos.`,
   ],
 
   /* ── Frase final de la fogata ────────────────────────────── */
-  fraseFinal: "Y si tuviera que vivir mil vidas más,\nvolvería a encontrarte en cada una de ellas.",
+ fraseFinal: `No sé qué nos espera más adelante.
+
+Pero si pudiera volver a aquella noche en el bar y elegir otra vez si acercarme o no...
+
+Volvería a hacerlo.
+Sin dudarlo...`,
 };
